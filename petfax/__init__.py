@@ -7,12 +7,11 @@ def create_app():
     # index route
     @app.route("/")
     def index():
-        return "Hello, this is PetFax!"
+        return "<h1>Welcome to PetFax!</h1>"
 
 
     # pets index route
-    @app.route("/pets")
-    def pets():
-        return "These are our pets available for adoption!"
+    from . import pets
+    app.register_blueprint(pets.bp)
     
     return app
