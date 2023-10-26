@@ -7,12 +7,12 @@
     },{   
         "pet_id": 2,
         "pet_name": "Thumper",
-        "pet_photo": "emiliano-vittoriosi-3FSBkX4yG80-unsplash.jpg",
+        "pet_photo": "assets/emiliano-vittoriosi-3FSBkX4yG80-unsplash.jpg",
         "pet_fact": "Rabbits have almost 360° vision but are born with their eyes shut"
     },{   
         "pet_id": 3,
         "pet_name": "Max",
-        "pet_photo": "karsten-winegeart-5PVXkqt2s9k-unsplash.jpg",
+        "pet_photo": "assets/karsten-winegeart-5PVXkqt2s9k-unsplash.jpg",
         "pet_fact": "A dog’s nose print is unique, much like a person’s fingerprint"
     }
 ]
