@@ -12,6 +12,6 @@ def create_app():
 
     # pets index route
     from . import pets
-    app.register_blueprint(pets.bp)
+    app.register_blueprint(pets.bp) # route /pets
     
     return app
